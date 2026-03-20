@@ -1,0 +1,22 @@
+{
+  "name": "mytrader-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/agent.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "lightweight-charts": "^5.1.0",
+    "node-cron": "^3.0.0",
+    "technicalindicators": "^3.1.0",
+    "ws": "^8.19.0"
+  }
+}
