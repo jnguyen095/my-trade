@@ -33,6 +33,7 @@ export const executePaperTrade = (decision, price) => {
     account.balance += position.value + pnl;
 
     account.history.push({
+      side: position.side,
       entry: position.entryPrice,
       exit: price,
       pnl,
