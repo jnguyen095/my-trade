@@ -1,12 +1,15 @@
 {
-  "balance": 1000.3391579622182,
+  "balance": 1002.2768020658441,
   "position": null,
   "history": [
     {
-      "entry": 70257.18,
-      "exit": 70565.72,
-      "pnl": 0.4391579622182504,
-      "time": "2026-03-20T10:40:50.385Z"
+      "side": "LONG",
+      "entry": 70103.73732672745,
+      "exit": 70659.97,
+      "reason": "The RSI is overbought at 71.19, indicating a potential reversal. The EMA20 and EMA50 are in line to potentially flip, which also supports a sell signal.",
+      "pnl": 2.60513539917733,
+      "dcaCount": 5,
+      "time": "2026-03-25T03:32:45.470Z"
     }
   ]
 }
